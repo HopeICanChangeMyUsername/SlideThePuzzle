@@ -1,0 +1,37 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  
+  .row{
+    display:flex;
+    flex-direction:inline;
+    border:solid 1px black;
+    width:100px;
+    height:100px;
+  }
+  
+  .col {
+    display:flex;
+    flex-direction:row;
+    border: red;
+  
+   
+  }
+  
+  [data-color=green]{
+    background-color:green;
+    
+  }
+  
+  [data-color=blue]{
+    background-color:blue;
+  }
+  [data-color=yellow]{
+    background-color:yellow;
+  }
+  
+  .puzzle div:not(.col){
+  /*   background-color:purple */
+  }
