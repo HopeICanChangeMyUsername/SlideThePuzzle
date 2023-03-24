@@ -4,10 +4,17 @@
     box-sizing:border-box;
   }
   
+  .puzzle{
+    border:0px #9e8ce3 solid;
+    border-radius:50px;
+    width:fit-content;
+    height:auto;
+    overflow: hidden;
+  }
   .row{
     display:flex;
     flex-direction:inline;
-    border:solid 1px black;
+    border:solid 1px rgb(255, 255, 255);
     width:100px;
     height:100px;
   }
